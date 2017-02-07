@@ -5,18 +5,26 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
+    var mynumber = Math.random()
+    if (mynumber < 0.5){
     
     makeRect(10, 0,800,700,"white",0.99)
     makeRect(10,70,800,40,"green",0.99)
     makeCircle(50,25,25,"yellow",0.99)
     
+}if (mynumber > 0.5 ){
+      makeRect(10, 0,800,700,"purple",0.99)
+    makeRect(10,70,800,40,"green",0.99)
+    makeCircle(50,25,25,"yellow",0.99)
 }
-
+}
 
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
+    var number = Math.random()
+    if (number < 0.5){
      makeRect(10, 0,800,700,"white",0.99)
       makeRect(10,70,800,40,"green",0.99)
        makeCircle(50,25,25,"yellow",0.99)
@@ -26,6 +34,24 @@ function createSecondScene() {
         makePolyline("100,10 72,110  ","blue",3,0.99)
         makePolygon("200,10 200,12 ","blue",3,0.76)
        
+}if (number > 0.5){
+    makeRect(10, 0,800,700,"white",0.99)
+      makeRect(10,70,800,40,"green",0.99)
+       makeCircle(50,25,25,"yellow",0.99)
+       makeEllipse(100,10,30,23,"gray",0.55)
+       makeEllipse(200,10,25,20,"gray",0.55)
+       makeEllipse(150,10,33,17,"gray",0.55)
+       makeRect(100,50,2,1,"blue",0.67)
+       makeRect(100,55,2,1,"blue",0.67)
+       makeRect(100,60,2,1,"blue",0.67)
+       makeRect(100,45,2,1,"blue",0.67)
+       makeRect(110,50,2,1,"blue",0.67)
+       makeRect(120,50,2,1,"blue",0.67)
+       makeRect(110,55,2,1,"blue",0.67)
+       makeRect(110,600,2,1,"blue",0.67)
+        makePolygon("200,10 200,12 ","blue",3,0.76)
+    
+}
 }
 
 
@@ -33,6 +59,9 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
+    var boi = Math.random()
+    if (boi < 0.5){
+    
         makeRect(10, 0,800,700,"white",0.99)
       makeRect(10,70,800,40,"green",0.99)
        makeCircle(50,25,25,"yellow",0.99)
@@ -51,8 +80,27 @@ function createThirdScene() {
        makeRect(70,65,1,5,"black",0.99)
        makeEllipse(70,63,4,5,"green",0.99)
        
-}
+}if (boi > 0.5){
+     makeRect(10, 0,800,700,"purple",0.99)
+      makeRect(10,70,800,40,"green",0.99)
+       makeCircle(50,25,25,"yellow",0.99)
+       makeRect(100,65,1,5,"black",0.99)
+       makeEllipse(100,63,4,5,"green",0.99)
+       makeRect(110,65,1,5,"black",0.99)
+       makeEllipse(110,63,4,5,"green",0.99)
+      makeRect(120,65,1,5,"black",0.99)
+       makeEllipse(120,63,4,5,"green",0.99)
+        makeRect(130,65,1,5,"black",0.99)
+       makeEllipse(130,63,4,5,"green",0.99)
+       makeRect(90,65,1,5,"black",0.99)
+       makeEllipse(90,63,4,5,"green",0.99)
+       makeRect(80,65,1,5,"black",0.99)
+       makeEllipse(80,63,4,5,"green",0.99)
+       makeRect(70,65,1,5,"black",0.99)
+       makeEllipse(70,63,4,5,"green",0.99)
 
+}
+}
 
 
 
